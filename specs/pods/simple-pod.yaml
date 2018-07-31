@@ -8,3 +8,5 @@ spec:
     image: mhausenblas/simpleservice:0.5.0
     ports:
     - containerPort: 9876
+  securityContext:
+    runAsUser: 1001

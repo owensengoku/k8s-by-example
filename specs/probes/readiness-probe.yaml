@@ -13,3 +13,5 @@ spec:
       httpGet:
         path: /health
         port: 9876
+  securityContext:
+    runAsUser: 1001
