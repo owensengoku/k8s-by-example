@@ -11,11 +11,10 @@ spec:
     spec:
       containers:
       - name: main-app
-        image: mhausenblas/simpleservice:0.5.0
+        image: owensengoku/simpleservice:v0.5.2
         ports:
         - containerPort: 9876
         env:
         - name: SIMPLE_SERVICE_VERSION
           value: "v0.9.0"
-      securityContext:
-        runAsUser: 1001
+
