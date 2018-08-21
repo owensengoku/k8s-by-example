@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
       - name: env-from-configmap
-        image: mhausenblas/simpleservice:0.5.0
+        image: owensengoku/simpleservice:v0.5.2
         ports:
         - containerPort: 3000
         env:
@@ -25,5 +25,4 @@ spec:
             secretKeyRef:
               name: main-app-secret
               key: api-key
-      securityContext:
-        runAsUser: 1001
+
