@@ -11,7 +11,7 @@ spec:
     resources:
       limits:
         memory: "64Mi"
-        cpu: "500m"
+        cpu: "100m"
   - name: shell
     image: gosharplite/ubuntu:v2
     command:
@@ -21,5 +21,5 @@ spec:
     resources:
       limits:
         memory: "64Mi"
-        cpu: "500m"
+        cpu: "100m"
 
